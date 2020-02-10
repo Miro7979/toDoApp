@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Todos = ({ todos, deleteTodo }) => {
 
   const todoList = todos.length ? (
@@ -17,7 +18,7 @@ const Todos = ({ todos, deleteTodo }) => {
   );
   return (
 <div className="todos collection">
-{todoList}
+  {todoList}
 </div>
 
   )
